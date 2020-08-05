@@ -5,7 +5,6 @@
   2. `getCachedData()` that returns an observable with a JSON object read from `localStorage`.
 
   
-*  is responsible for , your application should only load this module upon navigating to . 
 * Create a featured module called `UsersModule` that has two components:
   1. `users` component, with `users` route, showing a list of users.
   2. `userdetails` component, with `users/:uuid` route, showing full details about the user.

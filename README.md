@@ -9,7 +9,7 @@
   1. `users` component, with `users` route, showing a list of users.
   2. `userdetails` component, with `users/:uuid` route, showing full details about the user.
 * Both components will retrieve data from `AppModule` service.
-* If a user tried to visit `users/:uuid` page without passing a correct `uuid` param, then your app must redirect them to a friendly error page. (use Guards).  
+* If a user tried to visit `users/:uuid` route without passing a correct `uuid` param, then your app must redirect them to a friendly error page. (use Guards).  
   
 **Note: Write this exercise with Lazy Loading in mind.**
 

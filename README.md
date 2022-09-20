@@ -1,9 +1,9 @@
-# MWA - Homework 13 - Angular 03
+# MWA - Homework - Angular
 ## Coding Exercise
-* Use Express/MongoDB to create a web-server that implements `GET`, `DELETE` HTTP verbs for an entity called `courses`. A course object has the following structure:
+* Use Express/Mongoose to create a web-server that implements `GET`, `DELETE` HTTP verbs for an entity called `courses`. A course object has the following structure:
 ```javascript
-{_id: 1, name:'Web Application Development', code:'CS569'}
+{_id: 1, name:'modern web application', code:'CS572'}
 ```  
-* Use Angular to build a client app that has a lazy-loaded module `CourseModule` that offers: 
-  * Showing list of courses
-  * Delete a course by ID
+* Use Angular to build a client app: 
+  * Showing list of courses (use TitleCasePipe)
+  * Create a directive that deletes the course by ID when double-clicked.

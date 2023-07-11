@@ -4,4 +4,4 @@
 * Use Angular to build a client app: 
   * Create a service that communicates with the backend app.
   * Show a list of courses (use TitleCasePipe).
-  * Create a button that deletes the course by ID.
+  * Create a button that deletes the course by ID. Once you receive a confirmation from the DB that the course is deleted, update your state.
